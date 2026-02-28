@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+  body{
+            color: rgb(248, 252, 252);
+            background: linear-gradient(to right, blue, rgb(103, 103, 197), purple);
+        }
+        a{
+            color: rgb(4, 5, 5);
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        nav{
+            background-color: snow;
+            /* display: flex; justify-content: space-between; */
+        }
+
+        nav ul{
+            display: flex; justify-content: space-around;
+        }
+
+        .about-me{
+            font-style: oblique;
+            margin-top: 4%;
+        }
+
+        .about-me p{
+            font-size: 25px;
+        }
+
+        img{
+            border-radius: 10em;
+            margin-top: 5%;
+        }
+
+        .bio{
+            margin-top: 4%;
+        }
+
+        .bio p{
+            margin-top: 1%;
+             font-size: 25px;
+
+        }
+
+        .a{
+            margin-top: 1%;
+               /* width: 80%; */
+        }
+
+        .a a{
+             border-radius: 10px;
+             text-decoration: none;
+             color: black;
+             font-size: 20px;
+             padding: 2px;
+          
+        }
+
+        .skills{
+            text-align: center;
+            /* border: 1px solid yellow; */
+        }
+
+        .skills table{
+            text-align: center;
+            /* border: 1px solid yellow; */
+        }
+
+         table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid white;
+            text-align: left;
+            padding: 10px;
+        }
+        th{
+            background-color: dimgray;
+        }
+        tr :hover {
+            background-color: navy;
+        }
+        dt,dd{
+            font-size: large;
+        }
